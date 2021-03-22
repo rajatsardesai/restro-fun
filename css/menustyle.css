@@ -1,0 +1,81 @@
+.menu {
+  height: 100vh;
+}
+
+.menu::before {
+  content: "";
+  position: absolute;
+  background: url("/img/menu.jpg") center center/cover;
+  top: 0;
+  left: 0;
+  height: 130%;
+  width: 100%;
+  z-index: -1;
+  filter: blur(2px);
+}
+
+.menu-heading h4 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 50px;
+  padding: 6px 0;
+  font-weight: lighter;
+  color: white;
+}
+
+.menu-heading h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px 10px;
+  text-align: center;
+  color: white;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 6px;
+  padding: 6px 20px;
+}
+
+.left-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 27px 45px;
+  height: 400px;
+  padding: 50px 0;
+  border: 1px solid gray;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.right-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 27px 45px;
+  height: 400px;
+  padding: 50px 0;
+  border: 1px solid gray;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.menu-name {
+  font-size: 25px;
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+
+.menu-details {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  padding: 0 100px;
+}

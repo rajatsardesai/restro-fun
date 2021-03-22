@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+/* navigation */
+
+.navbar {
+  position: sticky;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+
+.navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  padding: 17px;
+}
+
+.nav-list img {
+  width: 90px;
+}
+
+.nav-list li {
+  margin: 0 10px;
+  padding: 0 20px;
+  list-style: none;
+}
+
+.nav-list li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-list li a:hover {
+  color: lightgray;
+}
+
+/* home */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 200px;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.home::before{
+    content: "";
+    background: url("/img/bg.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 105%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+.box-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80%;
+  margin: auto;
+  height: 90%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container img {
+  width: 200px;
+  padding: 6px 0;
+  margin: 20px 0;
+  filter: invert();
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.container h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 6px 0;
+    margin: 10px 0;
+}
+
+.container p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 6px 0;
+}
+
+footer{
+  background-color: black;
+}
+
+footer p{
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+}
+
+.burger-nav {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 25px;
+}
+
+.line {
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 3px 3px;
+}
+
+.logo-resp img {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  left: 4%;
+  top: 10px;
+  width: 50px;
+}

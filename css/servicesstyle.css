@@ -1,0 +1,212 @@
+.services {
+  padding: 14px 0;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.services::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.7) url("/img/serv.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 105%;
+  width: 100%;
+  z-index: -1;
+}
+
+.tagline {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagline h1 {
+  font-size: 80px;
+  line-height: 80px;
+  color: white;
+  padding: 0 50px;
+  margin: 0 50px;
+}
+
+.serv-container {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+}
+
+.top-container {
+  display: flex;
+}
+
+.bottom-container {
+  display: flex;
+}
+
+.burger {
+  width: 175px;
+  height: 196px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.burger i {
+  color: white;
+  padding: 6px;
+}
+
+.burger h4 {
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+  padding: 6px;
+}
+
+.pizza {
+  width: 175px;
+  height: 196px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.pizza i {
+  color: white;
+  padding: 6px;
+}
+
+.pizza h4 {
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+  padding: 6px;
+}
+
+.drink {
+  width: 175px;
+  height: 196px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.drink i {
+  color: white;
+  padding: 6px;
+}
+
+.drink h4 {
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+  padding: 6px;
+}
+
+.hotdog {
+  width: 175px;
+  height: 196px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hotdog i {
+  color: white;
+  padding: 6px;
+}
+
+.hotdog h4 {
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+  padding: 6px;
+}
+
+.ice-cream {
+  width: 175px;
+  height: 196px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.ice-cream i {
+  color: white;
+  padding: 6px;
+}
+
+.ice-cream h4 {
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+  padding: 6px;
+}
+
+.cookies {
+  width: 175px;
+  height: 196px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.cookies i {
+  color: white;
+  padding: 6px;
+}
+
+.cookies h4 {
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+  padding: 6px;
+}
+
+.zoom {
+  transition: transform 0.2s; /* Animation */
+  width: 175px;
+  height: 196px;
+}
+
+.zoom:hover {
+  transform: scale(
+    1.1
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
